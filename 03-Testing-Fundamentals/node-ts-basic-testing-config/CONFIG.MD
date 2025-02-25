@@ -107,3 +107,9 @@ testEnvironment: "jest-environment-node",
 "test:watch": "jest --watch",
 "test:coverage": "jest --coverage",
 ```
+
+5. Add at Begining **tsconfig.json** before "compilerOptions"
+```
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts","**/*.test.ts"],
+```
