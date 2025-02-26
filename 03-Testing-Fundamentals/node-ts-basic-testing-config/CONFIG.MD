@@ -77,6 +77,12 @@ npx tsc --init --outDir dist/ --rootDir src
   "build": "rimraf ./dist && tsc",
   "start": "npm run build && node dist/app.js"
 ```
+```
+  "dev": "ts-node src/app.ts",
+  "dev:nodemon": "nodemon",
+  "build": "rimraf ./dist && tsc",
+  "start": "npm run build && node dist/app.js"
+```
 # Pasos para configurar Jest con TypeScript, en Node 
 
 Documentación [oficial sobre Jest](https://jestjs.io/docs/getting-started)
